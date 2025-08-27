@@ -35,7 +35,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className="flex justify-between items-center p-4 bg-gray-900 text-white sticky top-0 z-50">
+    <nav className="flex justify-between items-center p-4  bg-gray-900 opacity-95 text-white sticky top-0 z-50">
       
       <h1 className="text-xl font-bold">MySite</h1>
       <ul className="flex gap-6">
